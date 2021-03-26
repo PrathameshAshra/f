@@ -1,0 +1,33 @@
+@import '../../theme/theme.scss';
+
+
+.footer-container{
+    justify-content: space-between;
+    background-color: $footer-bg;
+    // font-size: $font-size-18;
+    padding-left: 174px;
+    color: $unnamed-color-ffffff;
+    display: flex;
+    box-sizing: border-box;
+    padding-right: 143px;
+    padding-top: 41px;
+    padding-bottom: 41px;
+    .copyright-container{
+        min-width: fit-content;
+    }
+    .menu-container{
+        display: flex;
+        .menu-list{
+            .nav{
+                margin-right: 82px;
+                text-transform: uppercase;
+            }
+        }
+        .icon-list{
+            margin-left: 10px;
+            img{
+                margin-right: 25px;
+            }
+        }
+    }
+}
